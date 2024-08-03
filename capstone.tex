@@ -1,0 +1,166 @@
+\documentclass[12pt]{report}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{hyperref}
+
+% Page layout
+\geometry{a4paper, margin=1in}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\thepage}
+\fancyfoot[C]{}
+
+% Title formatting
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Huge}
+
+% Table of contents formatting
+\renewcommand{\cftchapfont}{\normalfont\bfseries}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftchappagefont}{\normalfont\bfseries}
+\renewcommand{\cftsecpagefont}{\normalfont}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\begin{document}
+
+\title{Title of Capstone Here}
+\author{Lennart Labahn \\ Western Governors University}
+\date{\today}
+\maketitle
+
+\tableofcontents
+
+\chapter*{Proposal Overview}
+\addcontentsline{toc}{chapter}{Proposal Overview}
+
+The Proposal Overview section (suggested length of 2–4 pages) introduces the problem and overviews the solution. It contains the "road map" for the organization of the remainder of the paper. Describe the problem the project addresses and then provide an overview of the project and the organization of the paper. Summarize the capstone’s highlights. Include the following in your summary:
+
+\section*{Problem Summary}
+\addcontentsline{toc}{section}{Problem Summary}
+Summaries of the problem should include the context in which this problem exists. Summarize what will and will not be included in the project. Provide sufficient background information so that the reader can appreciate the need for a solution and the approach that will be taken in the project.
+
+\section*{IT Solution}
+\addcontentsline{toc}{section}{IT Solution}
+Describe the proposed IT solution to the problem. Clearly identify the relationship between the problem and the proposed solution.
+
+\section*{Implementation Plan}
+\addcontentsline{toc}{section}{Implementation Plan}
+This section should contain the details of an implementation plan. Provide details on the different phases (if applicable). Explain how the project will be carried out and why it will be carried out in that manner. Discuss the plan for implementing the project.
+
+\chapter*{Review of Other Work}
+\addcontentsline{toc}{chapter}{Review of Other Work}
+In this section (suggested length of 3–4 pages), review other works done by a third party that are relevant and directly relate to the project. Review at least four other works completed on the chosen topic. Summarize interviews, white papers, research studies, or other types of work by industry professionals. 
+
+\section*{Relation of Artifacts to Project Development}
+\addcontentsline{toc}{section}{Relation of Artifacts to Project Development}
+Provide a logical description of how each work reviewed relates to the proposed development of the project. Explain how each of the chosen works contextualize the problem or provide direction to the project.
+
+\chapter*{Project Rationale}
+\addcontentsline{toc}{chapter}{Project Rationale}
+Summaries should include the rationale for choosing this project, including what makes this problem interesting or significant. The Project Rationale section (suggested length of 1–2 pages) provides a rationale for the project. It should address the reasons for implementing the project, as described in the Proposal Overview.
+
+\chapter*{Current Project Environment}
+\addcontentsline{toc}{chapter}{Current Project Environment}
+This section (suggested length of 2–3 pages) describes and details the current project environment. It should also address specifically how the current state will set the direction for the definition and implementation of the proposed solution.
+
+\chapter*{Methodology}
+\addcontentsline{toc}{chapter}{Methodology}
+This section (suggested length of 1–2 pages) describes and details the specific methodology. The methodology is the process that the project will follow when it is implemented. Include specific details to adequately describe the steps that will take place to fully execute the project.
+
+\chapter*{Project Goals, Objectives, and Deliverables}
+\addcontentsline{toc}{chapter}{Project Goals, Objectives, and Deliverables}
+In Project Goals, Objectives, and Deliverables (suggested length of 3–5 pages), provide a detailed explanation of the goals and objectives for the project, and explain what the project will provide.
+
+\section*{Goals, Objectives, and Deliverables Table}
+\addcontentsline{toc}{section}{Goals, Objectives, and Deliverables Table}
+
+\begin{tabular}{|l|l|l|}
+\hline
+Goal & Supporting Objectives & Deliverables Enabling the Project Objectives \\
+\hline
+Summarize project goal 1 & Describe project objective 1.a & Explain project deliverable 1.a.i \\
+ & Describe project objective 1.b & Explain project deliverable 1.b.i \\
+\hline
+Summarize project goal 2 & Describe project objective 2.a & Explain project deliverable 2.a.i \\
+ & Describe project objective 2.b & Explain project deliverable 2.b.i \\
+\hline
+... & ... & ... \\
+\hline
+\end{tabular}
+
+\section*{Goals, Objectives, and Deliverables Descriptions}
+\addcontentsline{toc}{section}{Goals, Objectives, and Deliverables Descriptions}
+Describe each of the project goals. Describe each objective. Explain how the objectives support the goals, and explain how the objectives will be achieved. Explain what types of deliverables the project will provide, and describe the key project deliverables expected by the end of the project.
+
+\chapter*{Project Timeline with Milestones}
+\addcontentsline{toc}{chapter}{Project Timeline with Milestones}
+In this section (suggested length of 1–2 pages), provide a projected timeline with milestones for the project. 
+
+\begin{tabular}{|l|l|l|l|}
+\hline
+Milestone or Deliverable & Duration (hours or days) & Projected Start Date & Anticipated End Date \\
+\hline
+ &  &  &  \\
+\hline
+ &  &  &  \\
+\hline
+... & ... & ... & ... \\
+\hline
+\end{tabular}
+
+\chapter*{Outcome}
+\addcontentsline{toc}{chapter}{Outcome}
+In this section, describe the anticipated project outcomes and explain how the success of the project will be measured once completed. Explain the expected project outcomes and describe the evaluation framework to be used once the project is completed to assess the project’s success and effectiveness.
+
+\chapter*{References}
+\addcontentsline{toc}{chapter}{References}
+List all the outside sources that the narrative refers to in text. For information regarding in-text and reference list citations, please refer to the web link or visit the WGU Writing Center.
+
+\begin{thebibliography}{9}
+\bibitem{Smyth2002}
+Smyth, A. M., Parker, A. L., \& Pease, D. L. (2002). A study of enjoyment of peas. \textit{Journal of Abnormal Eating, 8}(3), 120-125. Retrieved from http://www.articlehomepage.com/full/url/
+
+\bibitem{Bernstein2002}
+Bernstein, M. (2002). 10 tips on writing the living Web. \textit{A List Apart: For People Who Make Websites, 149}. Retrieved from http://www.alistapart.com/articles/writeliving
+
+\bibitem{Bell2008}
+Bell, T., \& Phillips, T. (2008, May 6). A solar flare. \textit{Science @ NASA Podcast}. Podcast retrieved from http://science.nasa.gov/podcast.htm
+
+\bibitem{OLPC2011}
+OLPC Peru/Arahuay. (n.d.). Retrieved April 29, 2011 from the OLPC Wiki: http://wiki.laptop. org/go/OLPC_Peru/Arahuay
+
+\bibitem{Plath2000}
+Plath, S. (2000). The unabridged journals. K. V. Kukil (Ed.). New York, NY: Anchor.
+\end{thebibliography}
+
+\appendix
+\chapter{Appendix A}
+\section*{Title of Appendix}
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed.
+
+\chapter{Appendix B}
+\section*{Title of Appendix}
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed.
+
+\chapter{Appendix C}
+\section*{Title of Appendix}
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed.
+
+\chapter{Appendix D}
+\section*{Title of Appendix}
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed.
+
+\end{document}
